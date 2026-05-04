@@ -2,6 +2,9 @@
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="60" alt="TypeScript" />
 
+</div>
+
+---
 
 ## Overview
 
@@ -54,14 +57,14 @@ The project was built as a focused exercise in clean TypeScript architecture, AP
 
 ## Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Language | TypeScript 5.3 |
-| Build Tool | Vite 5 |
-| Styling | Tailwind CSS 3.4 |
-| Fonts | Playfair Display, DM Sans, DM Mono (Google Fonts) |
-| API | FreeAPI — `/api/v1/public/cats/cat/random` |
-| Icons | Inline SVG (no icon library dependency) |
+| Layer      | Technology                                        |
+| ---------- | ------------------------------------------------- |
+| Language   | TypeScript 5.3                                    |
+| Build Tool | Vite 5                                            |
+| Styling    | Tailwind CSS 3.4                                  |
+| Fonts      | Playfair Display, DM Sans, DM Mono (Google Fonts) |
+| API        | FreeAPI — `/api/v1/public/cats/cat/random`        |
+| Icons      | Inline SVG (no icon library dependency)           |
 
 ---
 
@@ -186,8 +189,8 @@ npm run build
 ```ts
 // vite.config.ts
 export default defineConfig({
-  base: '/random-cat-viewer/',
-})
+  base: "/random-cat-viewer/",
+});
 ```
 
 Then push `dist/` to the `gh-pages` branch.
